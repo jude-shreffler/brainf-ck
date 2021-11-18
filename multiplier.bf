@@ -1,12 +1,12 @@
-initialize cell 1 and 2
+initialize cell 0 and 1
 ++
 >
 ++++
-decrement one and add cell 2 to cell 3 until 1 == 0
+decrement 0 and add cell 1 to cell 2 until cell 1 == 0
 <
 [
     ->
-    add cell 2 into 3
+    add cell 1 into 2
     [
         -
         >+
@@ -22,7 +22,7 @@ decrement one and add cell 2 to cell 3 until 1 == 0
     ]
     <<<
 ]
-output cell 3
+output cell 2
 >>++++++++++++++++++++++++++++++++++++++++++++++++
 .
 ------------------------------------------------
